@@ -1,7 +1,7 @@
 import random
 
 #####define
-cntry=["india"]
+cntry=["india","brazil","chile","france","japan","kenya","mexico","norway","poland","russia","spain","sweden","turkey","zambia", "egypt", "greece","canada","italy","sudan","qatar","usa","china","uk"]
 r=random.choice(cntry)
 wl=[]
 rl=[]
