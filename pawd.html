@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected Site</title>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            if (password === "password") {
+                window.location.href = "blaight.html"; // Redirect to the welcome page if the password is correct
+            } else {
+                alert("Just kidding , nothing overthere yet,why dont you explore some drawings");
+                window.location.href = "index.html"; // Display message if the password is incorrect
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to the Password Protected Site</h1>
+    <p>Please enter the password to proceed:</p>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Submit</button>
+</body>
+</html>
